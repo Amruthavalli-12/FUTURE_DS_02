@@ -1,57 +1,116 @@
-# 📊 Customer Retention & Churn Analysis
+# 🚀 📊 **CUSTOMER RETENTION & CHURN ANALYSIS** 📊  
 
-## 🎯 Objective
-The goal of this project is to analyze customer churn patterns and identify key factors affecting customer retention in a subscription-based business.
-
----
-
-## 📂 Dataset
-Telco Customer Churn Dataset  
-Includes customer demographics, services, charges, and churn status.
+## 📌 **PROJECT OVERVIEW**  
+This project focuses on analyzing customer data to understand churn behavior and improve customer retention strategies.  
+The analysis includes data cleaning, exploratory analysis, and visualization of key churn indicators.
 
 ---
 
-## 🧹 Data Cleaning
-- Handled missing values
-- Converted data types
-- Encoded categorical variables
+## 🎯 **OBJECTIVE**  
+The main goals of this project are:
+
+🔹 Identify factors influencing customer churn  
+🔹 Analyze customer behavior and retention patterns  
+🔹 Evaluate impact of contract types on churn  
+🔹 Study relationship between charges and churn  
+🔹 Segment customers based on tenure  
 
 ---
 
-## 📊 Analysis Performed
-- Churn rate calculation
-- Churn distribution visualization
-- Contract type vs churn
-- Monthly charges vs churn
-- Customer tenure analysis
-- Payment method & service analysis
+## ⚙️ **TOOLS & TECHNOLOGIES USED**  
+
+💻 **Python**  
+📊 **Pandas**  
+📈 **Matplotlib**  
+📉 **Seaborn**  
+☁️ **Google Colab**  
 
 ---
 
-## 📈 Key Insights
-- Customers with month-to-month contracts show higher churn
-- High monthly charges increase churn probability
-- Customers in early tenure (0–12 months) churn more
-- Certain payment methods have higher churn rates
+## 📁 **DATASET**  
+
+📌 **Telco Customer Churn Dataset**  
+
+**Includes:**  
+👤 Customer Details  
+📅 Tenure  
+💰 Monthly Charges  
+💵 Total Charges  
+🌐 Internet Services  
+💳 Payment Method  
+🔁 Churn Status  
 
 ---
 
-## 💡 Recommendations
-- Offer incentives for long-term contracts
-- Improve onboarding experience
-- Provide better customer support
-- Target high-risk customers with retention strategies
+## 🧹 **DATA CLEANING STEPS**  
+
+✔ Checked missing values  
+✔ Converted TotalCharges to numeric  
+✔ Removed null values  
+✔ Encoded Churn column (**Yes → 1, No → 0**)  
 
 ---
 
-## 🛠️ Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+## 📊 **KEY ANALYSIS & VISUALIZATIONS**  
+
+### 📈 **CHURN DISTRIBUTION**  
+Shows overall churn percentage in dataset  
+
+### 📦 **CHURN BY CONTRACT TYPE**  
+Month-to-month customers have highest churn  
+
+### 💰 **MONTHLY CHARGES VS CHURN**  
+Higher charges lead to higher churn probability  
+
+### ⏳ **TENURE ANALYSIS**  
+Customers with low tenure churn more  
+
+### 🌐 **INTERNET SERVICE ANALYSIS**  
+Different services impact churn differently  
+
+### 💳 **PAYMENT METHOD ANALYSIS**  
+Certain payment methods show higher churn  
+
+### 📊 **COHORT ANALYSIS (TENURE GROUPS)**  
+Early-stage customers (0–12 months) are high risk  
 
 ---
+
+## 💡 **KEY INSIGHTS**  
+
+✔ Month-to-month contracts have highest churn  
+✔ Customers with high monthly charges tend to churn more  
+✔ Most churn happens in early tenure (0–12 months)  
+✔ Payment methods influence retention  
+✔ Lack of additional services increases churn  
+
+---
+
+## 🧠 **CONCLUSION**  
+
+Customer churn is influenced by pricing, contract type, tenure, and service usage.  
+Improving onboarding, pricing strategies, and customer engagement can significantly reduce churn and improve retention.
+
+---
+
+## 🚀 **FUTURE IMPROVEMENTS**  
+
+📊 Build dashboard using **Power BI/Tableau**  
+🤖 Churn prediction using **Machine Learning**  
+👥 Customer segmentation  
+📉 Retention strategy optimization  
+
+---
+
+## 👩‍💻 **AUTHOR**  
+
+**Mamidi Amruthavalli Supriya**  
+
+---
+
+## 🔗 **PROJECT DETAILS**  
+
+This project is part of the **Data Science & Analytics Internship Task**.
 
 ## 🚀 Outcome
 This project demonstrates how data analysis can help businesses reduce churn and improve customer retention strategies.
