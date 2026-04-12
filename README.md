@@ -111,6 +111,3 @@ Improving onboarding, pricing strategies, and customer engagement can significan
 ## 🔗 **PROJECT DETAILS**  
 
 This project is part of the **Data Science & Analytics Internship Task**.
-
-## 🚀 Outcome
-This project demonstrates how data analysis can help businesses reduce churn and improve customer retention strategies.
